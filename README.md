@@ -1,2 +1,33 @@
-# next-word-prediction-using-pytorch-rnn
-A Next Word Prediction application built using PyTorch and Simple Recurrent Neural Network (RNN). It uses English conversational text to learn language patterns and predict the most probable next word based on user input. Deployed using Streamlit with an interactive web interface.
+
+# Next Word Prediction using RNN
+
+## Project Description
+An English next-word prediction application
+using Simple Recurrent Neural Network (RNN).
+
+## Technologies
+- Python
+- PyTorch
+- Streamlit
+- Machine Learning
+
+## Model Architecture
+- Embedding Layer
+- Simple RNN Layer
+- Fully Connected Layer
+
+## Dataset
+English conversational text dataset.
+
+## Model Performance
+Test Accuracy: 26.22%
+
+## How to Run
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run application:
+
+streamlit run app.py
